@@ -1,0 +1,85 @@
+
+ html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    }
+
+
+    .animasi {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(47, 52, 56, 0.8)
+          url('img/Infinity-1s-200px.gif') 50% 50% no-repeat;
+      }
+      body.loading-animasi .animasi {
+        overflow: hidden;
+      }
+    
+      
+      body.loading-animasi .animasi {
+        display: block;
+      }
+   
+
+ 
+main{
+    
+
+
+    width: 100%;
+    height: 100em;
+    background-color: #372948;
+    
+}
+
+main .card-body {
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(155, 138, 138);
+}
+
+
+.navbar{
+    background: #6020af;
+    color: #fff;
+    box-shadow: 3px 3px 3px  rgb(199, 171, 171);
+
+}
+
+h5 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+
+
+
+
+.date ul li{
+    color: #fff;
+    list-style: none;
+    
+}
+
+
+footer {
+    background: #6020af;
+    height: 100%;
+    color: #fff;
+}
+
+/* 
+
+@media screen and (min-width: 480px) {
+    .container {width: 100em; height: 100em;}
+
+  } */
